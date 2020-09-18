@@ -1,0 +1,355 @@
+body {
+  padding:0%;
+  margin:0%;
+}
+.menubar{
+  border:1px solid rgb(100, 255, 218);
+
+}
+
+.nav ul li a {
+
+padding:0.2rem 0;
+margin:1.5rem 1rem 1.1rem 1rem;
+position:relative;
+letter-spacing:2px;
+color:white;
+
+
+}
+.nav ul li a:hover {
+  color: rgb(100, 255, 218);
+}
+
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.pt-3,
+.py-3 {
+  padding-top: 3rem !important;
+
+
+  padding:1rem 4rem;
+  margin:0 1rem;
+  position:relative;
+  letter-spacing:2px;
+  color:white;
+
+}
+
+body {
+  background-color:rgba(11, 21, 37, 0.99);
+  
+}
+.baner>div>h1,
+.baner>h1 {
+padding-top: 70px;
+  
+}
+
+.baner {
+  margin-top:200px;
+  text-align: center;
+}
+.features-overview .content-header {
+  padding: 78px 0 48px;
+  text-align: center;
+}
+
+.grid-margin {
+  margin-bottom: 100px;
+
+}
+.justify-content-start {
+  -webkit-box-pack: start !important;
+  justify-content: flex-start !important;
+}
+
+.d-flex {
+  display: -webkit-box !important;
+  display: flex !important;
+  padding:20px;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+.cent {
+  text-align: center;
+}
+
+
+
+/* nav ani */
+
+nav ul li {
+  list-style: none;
+  transform: translateX(100rem);
+  animation: slideIn .5s forwards;
+}
+nav ul li:nth-child(1) {
+  animation-delay: 0s;
+}
+
+nav ul li:nth-child(2) {
+  animation-delay: .5s;
+}
+
+nav ul li:nth-child(3) {
+  animation-delay: 1s;
+}
+
+nav ul li:nth-child(4) {
+  animation-delay: 1.5s;
+}
+nav ul li:nth-child(5) {
+  animation-delay: 2s;
+}
+
+
+
+
+nav ul li a:last-child {
+  margin-right: 0;
+}
+nav ul li a:before,
+nav ul li a:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 0.3px;
+  background-color:crimson;
+  left: 0;
+  transform: scaleX(0);
+  transition: all 0.5s;
+}
+
+nav ul li a::before {
+  top: 0;
+  transform-origin: left;
+}
+
+nav ul li a::after {
+  bottom: 0;
+  transform-origin: right;
+
+}
+
+nav ul li a:hover::before,
+nav ul li a:hover::after {
+
+  transform: scaleX(0.7);
+  
+
+
+}
+
+@keyframes slideIn {
+  from {}
+
+  to {
+    transform: translateX(0);
+  }
+}
+/* nav-bar */
+
+  .h6,h6 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    line-height: 1.6;
+    
+  }
+  .sub {
+    
+    padding-left: 210px;
+    padding-right: 210px;
+    
+
+  }
+ .setit h6 {
+   color: rgb(100, 255, 218) important;
+  }
+
+  
+
+
+
+
+
+
+ 
+/* hdfndsfns */
+ 
+
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+  
+  align-items: center;
+  transition:0.1s;
+  
+  z-index: 100000;
+
+}
+
+.sticky {
+  padding: 5px 100px;
+  background: #fff;
+}
+
+ .logo {
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+
+}
+
+.nav ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.nav ul li {
+  position: relative;
+  list-style: none;
+}
+
+.nav ul li a {
+  position: relative;
+
+  
+  color: #fff;
+  
+  font-weight: 500px;
+  transition: 0.6s;
+
+}
+
+
+.sticky
+  {
+  background-color:rgba(13, 16, 22, 0.99);
+}
+
+
+/* typer */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+
+h1 {
+  font-weight: 500;
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 2px solid;
+  white-space: nowrap;
+  margin: 0 auto;
+  user-select: none;
+
+  
+
+  animation: typing 9s steps(100, end),
+    blink-caret 1s step-end infinite;
+
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  50% {
+
+    border-color: transparent;
+  }
+}
+
+.type {
+  margin-top:44px important;
+  margin-bottom:66px important;
+}
+
+.lgg a {
+
+  color:whitesmoke;
+  text-decoration:none;
+  
+}
+
+
+.lgg a:hover {
+
+color: rgb(100, 255, 218);
+
+}
+.lgg h5 {
+
+  color: white;
+}
+
+.mucard {
+
+  background-color:crimson;
+
+}
+.pranitcard {
+ padding-left: 1px important;
+ padding-right: 1px;
+ padding-top:0;
+ padding-bottom:0px;
+}
+
+.popper {
+  padding-left: 1px important;
+  padding-top: 1px important;
+  padding-bottom: 1px;
+  padding-right:1px ;
+}
+.mymargin {
+
+  margin-bottom: 1px;
+
+}
+
+.ctc {
+
+height: 40000px important;
+
+}
